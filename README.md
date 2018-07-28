@@ -1,9 +1,14 @@
 # Svelte Adapter
 
-Use [svelte](https://svelte.technology) components with [fractal](http://fractal.build).
+Use [Svelte](https://svelte.technology) components with [Fractal](http://fractal.build).
 
-## Set up
+## Installation
 
-Install: _coming soon..._
+    $ npm install --save fractal-svelte-adapter
 
-Configure in Fractal: _coming soon ..._
+## Set Up
+
+In `fractal.js`:
+
+    fractal.components.engine("fractal-svelte-adapter");
+    fractal.components.set("ext", ".html");
