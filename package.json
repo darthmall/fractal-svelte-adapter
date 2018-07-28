@@ -1,15 +1,19 @@
 {
-  "name": "svelte-fractal-adapter",
+  "name": "fractal-svelte-adapter",
   "version": "0.1.0",
-  "description": "Use svelte with fractal",
+  "description": "Use Svelte with Fractal",
   "main": "adapter.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darthmall/fractal-svelte-adapter.git"
+  },
   "keywords": [
     "fractal",
     "svelte",
     "sveltejs"
   ],
   "author": "W. Evan Sheehan",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@frctl/fractal": "^1.1.7",
     "svelte": "^2.9.7"
