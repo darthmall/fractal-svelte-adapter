@@ -1,0 +1,17 @@
+{
+  "name": "svelte-fractal-adapter",
+  "version": "0.1.0",
+  "description": "Use svelte with fractal",
+  "main": "adapter.js",
+  "keywords": [
+    "fractal",
+    "svelte",
+    "sveltejs"
+  ],
+  "author": "W. Evan Sheehan",
+  "license": "ISC",
+  "dependencies": {
+    "@frctl/fractal": "^1.1.7",
+    "svelte": "^2.9.7"
+  }
+}
